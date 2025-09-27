@@ -1,15 +1,16 @@
 header {
   width: 100%;
   .container {
+    margin-top: 60px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    z-index: 1;
 
     .image-container {
       box-shadow: var(--box-shadow);
+      position: relative;
+      z-index: 1;
       figure {
         position: relative;
         height: 600px;
@@ -56,9 +57,9 @@ header {
   }
 }
 
-.container::before {
+body::before {
   content: "";
-  height: 85rem;
+  height: 700px;
   width: 100%;
   background-color: var(--bg-color);
   box-shadow: var(--box-shadow);
