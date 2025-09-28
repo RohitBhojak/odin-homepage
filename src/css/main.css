@@ -1,0 +1,55 @@
+main {
+  width: 100%;
+  .container {
+    width: 90%;
+    margin: 0 auto;
+
+    h2 {
+      padding: 20px;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 40px;
+
+      .card {
+        box-shadow: var(--box-shadow);
+        .project-img {
+          width: 100%;
+          height: auto;
+        }
+
+        .card-heading,
+        p {
+          padding: 8px 24px;
+        }
+
+        .card-heading {
+          display: flex;
+          justify-content: space-between;
+
+          .links {
+            display: flex;
+            gap: 20px;
+          }
+        }
+
+        p {
+          min-height: 180px;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    .container {
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+}
