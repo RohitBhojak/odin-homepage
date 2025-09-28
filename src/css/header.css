@@ -71,10 +71,29 @@ body::before {
   z-index: -1;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   header {
     .container {
       flex-direction: column;
+      .image-container {
+        width: 85%;
+        figure {
+          height: 700px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .text-container {
+        box-shadow: none;
+        width: 100%;
+        h2 {
+          text-align: center;
+        }
+        .links {
+          margin: 0 auto;
+        }
+      }
     }
   }
 }
