@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  min-height: 90vh;
+  margin-bottom: 150px;
   .container {
     margin: 60px 40px;
     display: flex;

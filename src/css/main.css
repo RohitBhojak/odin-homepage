@@ -1,5 +1,6 @@
 main {
   width: 100%;
+  margin-bottom: 150px;
   .container {
     width: 90%;
     margin: 0 auto;
